@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """"
 sonicwall.py - Copyright (c) 2013 Will Smith
 
@@ -19,9 +20,8 @@ DEALINGS IN THE SOFTWARE.
 	* An accessible FTP Server
 	* pexcept by Noah (http://www.noah.org/wiki/pexpect)
 		
-""""
+"""
 
-#!/usr/bin/python
 import pexpect, time
 
 FTP_SERVER = '10.xxx.xxx.xxx'							#FTP Server Address
